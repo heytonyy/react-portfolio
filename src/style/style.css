@@ -428,7 +428,7 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
+  .footer-copyright {
     text-align: center !important;
   }
 
