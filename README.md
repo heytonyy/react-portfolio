@@ -1,6 +1,4 @@
 TODO:
-- customize css/assets
+- customize css/assets (framer-motion, theme color, background image, personal images)
 - Make README.md
-- Deploy to AWS ECS2 / Look into Vercel
 - Dockerfile?
-- 
