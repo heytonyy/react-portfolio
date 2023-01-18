@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/avatar.svg";
+import myImg from "../../assets/me/me_beach.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -11,13 +11,20 @@ function ParallaxHome2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with computers in 1998 when my parents brought home an iMac and a 56kbs modem. 
               <br />
+              <br />
+              I am <b className="purple">curious</b> 🤔, <b className="purple">passionate</b> 🤩, <b className="purple">lovable</b> 🥰, and a <b className="purple">self-starting problem solver</b> 💡.
+              <br />
+              <br />
+              I recently graduated from <b className="purple"><a href="https://www.codingdojo.com/coding-bootcamp" target="_blank" rel="noreferrer">Coding Dojo</a></b>'s Full Stack Software Development program. 
+              <br />
+              <br />
+              I am currently looking for full-time employment.
               <br />
               I develop full stack applications in:
               <i>
@@ -25,19 +32,11 @@ function ParallaxHome2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  educational technology, cryptography, blockchain, and game design.
-                </b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvatar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid rounded" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

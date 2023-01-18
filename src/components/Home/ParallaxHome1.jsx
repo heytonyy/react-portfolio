@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/home-main.svg";
+import homeImg from "../../assets/home-stock.svg";
 import Type from "./Type";
 
 function ParallaxHome1() {
     return (
         <Container fluid className="home-section" id="home">
+
             <Container className="home-content">
                 <Row>
                     <Col md={7} className="home-header">
@@ -28,7 +29,7 @@ function ParallaxHome1() {
 
                     <Col md={5} style={{ paddingBottom: 20 }}>
                         <img
-                            src={homeLogo}
+                            src={homeImg}
                             alt="home pic"
                             className="img-fluid"
                             style={{ maxHeight: "450px" }}
@@ -37,7 +38,7 @@ function ParallaxHome1() {
                 </Row>
             </Container>
         </Container>
-    );
+    )
 }
 
 export default ParallaxHome1;

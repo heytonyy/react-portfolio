@@ -5,18 +5,19 @@ import ParallaxHome2 from "./ParallaxHome2";
 
 function Home() {
   const FirstHomeLayer = {
-    translateY: [0, 0],
+    speed: 0,
+    // translateY: [0, 0],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
     opacity: [1, 0, "easeOutCubic"],
-    scale: [1.05, 1, 'easeOutCubic'],
+    scale: [1.05, 1, "easeOutCubic"],
     children: (
       <ParallaxHome1 />
     )
   }
 
   const SecondHomeLayer = {
-    translateY: [50, 30],
+    translateY: [50, 20],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
     opacity: [0, 1, "easeOutCubic"],
@@ -26,12 +27,12 @@ function Home() {
   };
 
   return (
-      <ParallaxProvider>
-        <ParallaxBanner
-          layers={[FirstHomeLayer, SecondHomeLayer]}
-          style={{ height: "150vh" }}
-        />
-      </ParallaxProvider>
+    <ParallaxProvider>
+      <ParallaxBanner
+        layers={[FirstHomeLayer, SecondHomeLayer]}
+        style={{ height: "190vh" }}
+      />
+    </ParallaxProvider>
   );
 }
 

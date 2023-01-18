@@ -260,18 +260,28 @@ button:focus {
   padding-top: 80px !important;
 }
 
+/* @media (max-width: 767px) {
+  .home-content {
+    padding: 2.5rem 0 !important;
+  }
+} */
+
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(../assets/home-bg.jpeg);
+  /* background-image: var(--image-gradient), url(../assets/home-bg.jpeg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
 
+.home-img {
+  height: 450px;
+}
+
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 9rem 0 2rem;
   color: whitesmoke;
   text-align: left;
 }
@@ -320,8 +330,13 @@ button:focus {
 
 @media (max-width: 767px) {
   .myAvatar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+  }
+
+  .myAvatar img {
+    width: 50% !important;
+    height: 50% !important;
   }
 }
 
