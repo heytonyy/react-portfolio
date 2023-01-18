@@ -11,7 +11,7 @@ function Footer() {
       <Row>
         <Col md="12" className="footer-body">
           <h3 className="footer-copyright">
-            Base template designed by Soumyajit Behera
+            Base template by Soumyajit Behera
           </h3>
           <ul className="footer-icons">
             <li className="social-icons">
