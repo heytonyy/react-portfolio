@@ -31,7 +31,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(../assets/pre.svg);
+  background-image: url(../assets/preloader_pacman.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

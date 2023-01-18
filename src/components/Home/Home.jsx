@@ -1,47 +1,37 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/home-main.svg";
-import Home2 from "./Home2";
-import Type from "./Type";
+import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
+import ParallaxHome1 from "./ParallaxHome1";
+import ParallaxHome2 from "./ParallaxHome2";
 
 function Home() {
+  const FirstHomeLayer = {
+    translateY: [0, 0],
+    shouldAlwaysCompleteAnimation: true,
+    expanded: false,
+    opacity: [1, 0, "easeOutCubic"],
+    scale: [1.05, 1, 'easeOutCubic'],
+    children: (
+      <ParallaxHome1 />
+    )
+  }
+
+  const SecondHomeLayer = {
+    translateY: [50, 30],
+    shouldAlwaysCompleteAnimation: true,
+    expanded: false,
+    opacity: [0, 1, "easeOutCubic"],
+    children: (
+      <ParallaxHome2 />
+    )
+  };
+
   return (
-    <section>
-      <Container fluid className="home-section" id="home">
-
-        <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
-
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Tony Aiello </strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-      <Home2 />
-    </section>
+      <ParallaxProvider>
+        <ParallaxBanner
+          layers={[FirstHomeLayer, SecondHomeLayer]}
+          style={{ height: "150vh" }}
+        />
+      </ParallaxProvider>
   );
 }
 
