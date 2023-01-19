@@ -30,7 +30,7 @@ function Home() {
     <ParallaxProvider>
       <ParallaxBanner
         layers={[FirstHomeLayer, SecondHomeLayer]}
-        style={{ height: "200vh" }}
+        style={{ height: "190vh" }}
       />
     </ParallaxProvider>
   );

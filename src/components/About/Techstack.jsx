@@ -49,7 +49,7 @@ function TechStack() {
                 className="tech-icons"
                 whileHover={{ 
                   scale: randomHover === "scale" ? 1.2 : 1,
-                  borderRadius: randomHover === "rounded" ? "100%" : null
+                  borderRadius: randomHover === "rounded" ? "100%" : "10px"
                 }}
                 whileTap={{ 
                   scale: 0.8, 

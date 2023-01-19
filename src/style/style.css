@@ -344,12 +344,20 @@ button:focus {
 .myAvatar {
   display: flex !important;
   justify-content: center !important;
-  padding-top: 9em !important;
+  align-items: center !important;
+  padding-top: 7em !important;
 }
 
 .myAvatar img {
-  height: 50%;
+  width: 100%;
   border-radius: 50% !important;
+}
+
+@media (max-width: 992px) {
+  .myAvatar img {
+    height: 60%;
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
