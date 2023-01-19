@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeImg from "../../assets/home-stock.svg";
 import downArrow from "../../assets/navigation_arrow_down.svg";

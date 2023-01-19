@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
-
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import pdf from "../../assets/../assets/resume.pdf";

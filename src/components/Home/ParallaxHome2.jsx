@@ -1,7 +1,5 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../assets/me/me_beach.jpg";
-import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -15,13 +13,13 @@ function ParallaxHome2() {
               LET ME <span className="text-pink"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with computers in 1998 when my parents brought home an iMac and a 56kbs modem. 
+              I fell in love with computers in 1998 when my parents brought home an iMac and a 56kbs modem.
               <br />
               <br />
               I am <b className="text-pink">curious</b> 🤔, <b className="text-pink">passionate</b> 🤩, <b className="text-pink">lovable</b> 🥰, and a <b className="text-pink">self-starting problem solver</b> 💡.
               <br />
               <br />
-              I recently graduated from <b className="text-pink"><a href="https://www.codingdojo.com/coding-bootcamp" target="_blank" rel="noreferrer">Coding Dojo</a></b>'s Full Stack Software Development program. 
+              I recently graduated from <b className="text-pink"><a href="https://www.codingdojo.com/coding-bootcamp" target="_blank" rel="noreferrer">Coding Dojo</a></b>'s Full Stack Software Development program.
               <br />
               <br />
               I am currently looking for full-time employment.
@@ -35,9 +33,7 @@ function ParallaxHome2() {
             </p>
           </Col>
           <Col md={4} className="myAvatar">
-            <Tilt>
-              <img src={myImg} className="img-fluid rounded" alt="avatar" />
-            </Tilt>
+            <img src={myImg} className="img-fluid rounded" alt="avatar" />
           </Col>
         </Row>
         <Row>
