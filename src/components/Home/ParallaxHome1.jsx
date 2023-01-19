@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeImg from "../../assets/home-stock.svg";
+import downArrow from "../../assets/navigation_arrow_down.svg";
 import Type from "./Type";
 
 function ParallaxHome1() {
@@ -22,17 +23,27 @@ function ParallaxHome1() {
                             <strong className="main-name"> Tony Aiello </strong>
                         </h1>
 
-                        <div style={{ padding: 50, textAlign: "left" }}>
+                        <div style={{ paddingTop: 50, paddingLeft: 50, paddingRight: 50, textAlign: "left" }}>
                             <Type />
                         </div>
                     </Col>
 
-                    <Col md={5} style={{ paddingBottom: 20 }}>
+                    <Col md={5} style={{ paddingBottom: 20, paddingTop: 50 }}>
                         <img
                             src={homeImg}
                             alt="home pic"
                             className="img-fluid"
                             style={{ maxHeight: "450px" }}
+                        />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12} className="home-down-arrow">
+                        <img
+                            src={downArrow}
+                            alt="down arrow"
+                            className="img-fluid"
+                            style={{ paddingTop: 50 }}
                         />
                     </Col>
                 </Row>

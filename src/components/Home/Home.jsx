@@ -17,7 +17,7 @@ function Home() {
   }
 
   const SecondHomeLayer = {
-    translateY: [50, 20],
+    translateY: [50, 30],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
     opacity: [0, 1, "easeOutCubic"],
@@ -30,7 +30,7 @@ function Home() {
     <ParallaxProvider>
       <ParallaxBanner
         layers={[FirstHomeLayer, SecondHomeLayer]}
-        style={{ height: "190vh" }}
+        style={{ height: "200vh" }}
       />
     </ParallaxProvider>
   );

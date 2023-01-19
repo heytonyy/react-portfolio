@@ -12,23 +12,23 @@ function ParallaxHome2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="text-pink"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I fell in love with computers in 1998 when my parents brought home an iMac and a 56kbs modem. 
               <br />
               <br />
-              I am <b className="purple">curious</b> 🤔, <b className="purple">passionate</b> 🤩, <b className="purple">lovable</b> 🥰, and a <b className="purple">self-starting problem solver</b> 💡.
+              I am <b className="text-pink">curious</b> 🤔, <b className="text-pink">passionate</b> 🤩, <b className="text-pink">lovable</b> 🥰, and a <b className="text-pink">self-starting problem solver</b> 💡.
               <br />
               <br />
-              I recently graduated from <b className="purple"><a href="https://www.codingdojo.com/coding-bootcamp" target="_blank" rel="noreferrer">Coding Dojo</a></b>'s Full Stack Software Development program. 
+              I recently graduated from <b className="text-pink"><a href="https://www.codingdojo.com/coding-bootcamp" target="_blank" rel="noreferrer">Coding Dojo</a></b>'s Full Stack Software Development program. 
               <br />
               <br />
               I am currently looking for full-time employment.
               <br />
               I develop full stack applications in:
               <i>
-                <b className="purple"> Python (Flask), MERN, and Java Spring Boot. </b>
+                <b className="text-pink"> Python (Flask), MERN, and Java Spring Boot. </b>
               </i>
               <br />
               <br />
@@ -44,7 +44,7 @@ function ParallaxHome2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="text-pink">connect </span>with me
             </p>
             <ul className="home-about-social-links">
 
@@ -53,7 +53,7 @@ function ParallaxHome2() {
                   href="https://github.com/heytonyy"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-color home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -64,7 +64,7 @@ function ParallaxHome2() {
                   href="https://www.linkedin.com/in/tonyaiello3/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-color  home-social-icons"
+                  className="icon-color home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>

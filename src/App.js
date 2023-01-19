@@ -9,7 +9,6 @@ import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Footer';
 import "./style/style.css";
-import "./style/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {

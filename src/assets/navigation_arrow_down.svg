@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Mercury Development http://mercdev.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48">
+    <style>
+@keyframes arrow-down_t { 0% { transform: translate(-0.000024px,-7.800003px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 33.3333% { transform: translate(-0.000024px,6.199997px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(-0.000024px,-7.800003px); } }
+    </style>
+    <title>stat48_navigation_arrow_down</title>
+    <desc>Created with Sketch.</desc>
+    <path id="arrow-down" fill="#fff" d="M24,28.9302L36.5151,16.4151C37.3352,15.595,38.6648,15.595,39.4849,16.4151C40.305,17.2352,40.305,18.5648,39.4849,19.3849L25.4849,33.3849C25.0749,33.795,24.5375,34,24,34C23.4626,34,22.9252,33.795,22.5151,33.3849L8.5151,19.3849C7.695,18.5648,7.695,17.2352,8.5151,16.4151C9.3352,15.595,10.6648,15.595,11.4849,16.4151L24,28.9302L24,28.9302Z" transform="translate(24,17.1) translate(-24,-24.9)" style="animation: arrow-down_t 1s linear infinite both;"/>
+</svg>
