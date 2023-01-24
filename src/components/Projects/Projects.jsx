@@ -53,6 +53,15 @@ function Projects() {
               inDevelop={true}
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/sudoku.png"
+              title="Sudoku Solver"
+              description="A web application that allows users to solve sudoku puzzles. Users will upload a sudoku puzzle and the application will solve the puzzle and display the solution."
+              ghLink="https://github.com/heytonyy/sudoku-solver"
+              inDevelop={true}
+            />
+          </Col>
 
         </Row>
       </Container>
