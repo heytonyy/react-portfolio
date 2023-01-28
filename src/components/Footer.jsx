@@ -10,22 +10,11 @@ function Footer() {
       <Row>
         <Col md="12" className="footer-body">
           <h3 className="footer-copyright">
-            Base template by Soumyajit Behera
+            Designed by heytonyy
           </h3>
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-          </ul>
+          &nbsp;
           <h3 className="footer-copyright">
-            Copyright © {year} SB
+            © {year}
           </h3>
         </Col>
       </Row>

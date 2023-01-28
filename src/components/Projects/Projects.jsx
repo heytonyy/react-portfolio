@@ -46,19 +46,20 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/sudoku.png"
+              title="Sudoku Solver"
+              description="A web application that allows users to solve sudoku puzzles. Users will upload a sudoku puzzle image and the application will solve the puzzle and display the solution."
+              ghLink="https://github.com/heytonyy/sudoku-solver"
+              inDevelop={true}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/j-parody.png"
               title="J-Parody"
               description="A web socket based multiplayer game where users can create and join rooms to play a game of J-Parody (a parody of the popular game Jeopardy)."
               ghLink="https://github.com/heytonyy/j-parody"
-              inDevelop={true}
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/sudoku.png"
-              title="Sudoku Solver"
-              description="A web application that allows users to solve sudoku puzzles. Users will upload a sudoku puzzle and the application will solve the puzzle and display the solution."
-              ghLink="https://github.com/heytonyy/sudoku-solver"
               inDevelop={true}
             />
           </Col>
