@@ -15,6 +15,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/kanto_thumb.png"
+              title="KantoNET"
+              description="Image classification machine learning model that can classify one of the original 151 pokemon. The model was implemented using the convolutional neural network VGG16 architecture on a dataset of 22,000 pokemon images."
+              ghLink="https://github.com/heytonyy/kanto-net"
+              demoLink="https://colab.research.google.com/drive/16qTe5HnqUg2pvc3W4M2ZyWH7oh0J_v10"
+              inDevelop={false}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/set.jpg"
               title="SET"
               description="A time limited web-based card game: users have 10 mins and 81 cards to make “sets” of 3 based on properties of the card."
@@ -23,13 +34,13 @@ function Projects() {
               inDevelop={false}
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/everyday.jpg"
-              title="Everyday"
-              description="Social media platform that enables users to  post comments, send secure private messages and at 12:00am all posts / comments are cleared… once a day, everyday!"
-              ghLink="https://github.com/heytonyy/everyday"
+              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/sudoku-sm.png"
+              title="Sudoku Solver"
+              description="A web application that allows users to solve sudoku puzzles. Users will upload a sudoku puzzle image and the application will solve the puzzle and display the solution."
+              ghLink="https://github.com/heytonyy/sudoku-solver"
               inDevelop={false}
             />
           </Col>
@@ -46,11 +57,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/sudoku.png"
-              title="Sudoku Solver"
-              description="A web application that allows users to solve sudoku puzzles. Users will upload a sudoku puzzle image and the application will solve the puzzle and display the solution."
-              ghLink="https://github.com/heytonyy/sudoku-solver"
-              inDevelop={true}
+              imgPath="https://raw.githubusercontent.com/heytonyy/media-uploads/main/everyday.jpg"
+              title="Everyday"
+              description="Social media platform that enables users to  post comments, send secure private messages and at 12:00am all posts / comments are cleared… once a day, everyday!"
+              ghLink="https://github.com/heytonyy/everyday"
+              inDevelop={false}
             />
           </Col>
 
